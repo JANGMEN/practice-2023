@@ -39,3 +39,7 @@ if(money > 5000) { // money가 5000 이상인가
 for(let i = 0; i < 10; i++) {
     console.log("나무 찍기 " + i);
 }
+
+myArray.forEach(element => {
+    console.log("나무 찍기 " + element);
+});
